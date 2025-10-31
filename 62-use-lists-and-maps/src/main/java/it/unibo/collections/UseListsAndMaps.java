@@ -143,6 +143,6 @@ public final class UseListsAndMaps {
         for (Long longTmp : map.values()) {
             worldPopulation += longTmp;
         }
-        System.out.println("\nWorld population: " + String.format(Locale.ITALY, "%,d", worldPopulation) + "\n");
+        System.out.println("\nWorld population calculated: " + String.format(Locale.ITALY, "%,d", worldPopulation) + "\n");
     }
 }
